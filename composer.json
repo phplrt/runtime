@@ -1,0 +1,33 @@
+{
+    "name": "phplrt/runtime",
+    "type": "metapackage",
+    "description": "A set of phplrt runtime libraries",
+    "license": "MIT",
+    "keywords": ["runtime"],
+    "homepage": "https://github.com/phplrt",
+    "support": {
+        "issues": "https://github.com/phplrt/runtime/issues",
+        "source": "https://github.com/phplrt/runtime"
+    },
+    "authors": [
+        {
+            "name": "Kirill Nesmeyanov",
+            "email": "nesk@xakep.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "phplrt/lexer": "^2.3",
+        "phplrt/parser": "^2.3"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.3.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
